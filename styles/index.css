@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: system-ui;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.nav a{
+    color: rgb(100, 96, 96);
+    border: 2px solid white;
+    text-decoration: none;
+    padding: 5px 15px;
+}
+.nav a:hover{
+    border: 2px solid rgb(100, 96, 96);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+img{
+    width: 300px;
+    border-radius: 5px;
+}
+.footer{
+    margin-top: 30px;
+}
+.footer a{
+    color: rgb(100, 96, 96);
+    text-decoration: none;
+    padding: 5px 15px;
+}
+.footer a:hover{
+    border-bottom: 2px solid rgb(100, 96, 96);
+}
